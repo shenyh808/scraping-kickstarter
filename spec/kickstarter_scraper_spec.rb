@@ -1,4 +1,6 @@
 describe "#create_project_hash" do
+require_relative '../kickstarter_scraper'
+ 
 
   it "can be called on with no errors" do
     expect {create_project_hash}.to_not raise_error
